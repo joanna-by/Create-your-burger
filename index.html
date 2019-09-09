@@ -13,21 +13,30 @@
     <section id="overlay">
         <img src="https://tofurky.com/wp-content/uploads/2017/07/tofurky-DIY-burger-title.png" alt="Burgers Logo" id="logo">
         <hr>
-        <form action="/practice.html" method="POST">
+    <form action="/practice.html" method="POST">
             <h1>Create a burger!</h1>
-            <section class="protein">
+        <section class="protein">
             <label for="patty">What type of protein would you like?</label>
             <br>
             <input type="text" name="patty" id="patty" value="beef">
-    </section>
-    <hr>
+        </section>
+        <hr>
 
-    <section class="patties">
-        <label for="amount">How many patties would you like?</label>
-        <br>
-        <input id="amount" name="amount" type="number" step="1">
-        </form>
-        
+         <section class="patties">
+            <label for="amount">How many patties would you like?</label>
+            <br>
+            <input id="amount" name="amount" type="number" step="1">
+        </section>
+        <hr>
+
+        <section class="cooked">
+            <label for="doneness">How do you want your patty cooked</label>
+            <br>
+            <span>Rare</span>
+                <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+            <span>Well-Done</span>
       </section>
+    </form>   
+
 </body>
 </html>

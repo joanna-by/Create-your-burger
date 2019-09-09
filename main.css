@@ -36,3 +36,7 @@ body {
   .toppings label, .cheesy label {
     margin-right: 25px;
   }
+
+  section {
+      margin: 1rem
+  }

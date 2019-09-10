@@ -32,10 +32,10 @@ body {
     margin: auto;
     padding-top: 8px;
   }
-  
-  /* .toppings label, .cheesy label {
-    margin-right: 25px;
-  } */
+
+  textarea {
+    margin: 5px
+  }
 
   section {
       margin: 1rem
